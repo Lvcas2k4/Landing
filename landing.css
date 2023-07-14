@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    justify-content: space-between;
+    
+}
+.logo{
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+}
+.tcon-menu--xcross1{
+    font-weight: 400;
+    padding: 5px 10px;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style:inset;
+    cursor: pointer;
+    background-color: black;
+    border-color: aliceblue;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+.tcon-menu--xcross2{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    background-color: cornflowerblue; 
+    color: aliceblue;
+}
+.tcon-menu--xcross2:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.hc-color{
+    padding-top: px;
+    border-left: solid;
+    border-color: white;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 0 10px;
+    
+}
+.search_box{
+text-align: center;
+line-height: 200px;
+font-size: 70px;
+background-color: #dadbf1 ;
+font-weight: bold;
+}
+.searchbox1{
+    background-color: #dadbf1 ;
+
+}
+.searchbox1 input{
+    Position: relative;
+    Margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding: 1.5%;
+    border-radius: 8PX;
+    padding-right: 35px;
+    transform: translateY(-70px);
+
+
+}
+.arrow-svg {
+    fill: #000000;
+    width: 50px;
+    transform: translateX(-170%);
+    position: relative;
+    bottom: 42px ;
+
+}
+::placeholder{
+    font-size: 28px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000PX;
+}
+.container-inner{
+        
+        padding-left: 7% ;
+        padding-right: 7%;
+        display: grid;
+        width: 80%;
+        grid-template-columns:1000px 1000px;
+        grid-template-rows: 300px 300px;
+        gap: 20px;
+    
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-icon-img{
+    max-height: 48%;
+    margin-right: 15px;
+
+
+}
+.list-tittle{
+    font-size: 35px;
+    font-weight: bold;
+}
+.list-desc{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+
+
+.footer-container{
+    padding-right: calc(15px * 2);
+    padding-left: calc(15px * 2);
+    background-color: #000000;
+}
+h3{
+    font-size: 30px;
+    font-weight: 1000px;
+    line-height: 30px;
+    font-weight: bold;
+}
+ul{list-style: none;}
+li{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+footer{
+
+    display: block;
+    padding: 80px 0px;
+    background-color: #000000;
+    color: aliceblue;
+    
+}
+.footerInner{
+    display: flex;
+    
+}
+.footerAbstract{
+    width: calc(50% - 83px);
+    margin-right: 80px;
+    flex: 30%;
+    display: inline-block;
+}
+.footerResources{
+    width: calc(50% - 83px);
+    margin-right: 80px;
+    flex: 30%;
+    display: inline-block;
+}
+.footerCommunity{
+    width: calc(50% - 83px);
+    margin-right: 80px;
+    flex: 30%;
+    display: inline-block;
+}
+.footerCompany{
+    width: calc(50% - 83px);
+    margin-right: 80px;
+    flex: 30%;
+    display: inline-block;
+}
+.footerCopyright{
+    font-size: 17px;
+    width: calc(50% - 83px);
+    margin-right: 80px;
+    flex: 30%;
+    display: inline-block; 
+}
